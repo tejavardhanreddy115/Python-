@@ -1,0 +1,14 @@
+3)
+ch = (input("Enter the character to be printed: "))
+rows = int(input("Enter number of rows: "))
+for i in range(1, rows + 1):
+    print((ch +" " ) * i)
+
+output:
+Enter the character to be printed: +
+Enter number of rows: 5
++
++ +
++ + +
++ + + +
++ + + + +
